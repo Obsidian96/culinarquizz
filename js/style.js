@@ -206,9 +206,7 @@ $(document).ready(function () {
         $.scrollTo("section#" + $(this).attr("class"), 800, {margin:false, queue: true });
         return false;
     });
-
-
-
+	
     $("nav").sticky({ topSpacing: 0 });
 	
 });

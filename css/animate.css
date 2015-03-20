@@ -153,6 +153,11 @@ Copyright (c) 2014 Daniel Eden
           animation-name: pulse;
 }
 
+.topulse:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+}
+
 @-webkit-keyframes rubberBand {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
