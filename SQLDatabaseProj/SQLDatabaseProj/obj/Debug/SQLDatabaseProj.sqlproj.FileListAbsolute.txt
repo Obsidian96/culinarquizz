@@ -1,0 +1,5 @@
+C:\Users\Tim\Documents\GitHub\culinarquizz\SQLDatabaseProj\SQLDatabaseProj\bin\Debug\SQLDatabaseProj.dacpac
+C:\Users\Tim\Documents\GitHub\culinarquizz\SQLDatabaseProj\SQLDatabaseProj\bin\Debug\SQLDatabaseProj.dll
+C:\Users\Tim\Documents\GitHub\culinarquizz\SQLDatabaseProj\SQLDatabaseProj\bin\Debug\SQLDatabaseProj.pdb
+C:\Users\Tim\Documents\GitHub\culinarquizz\SQLDatabaseProj\SQLDatabaseProj\obj\Debug\SQLDatabaseProj.dll
+C:\Users\Tim\Documents\GitHub\culinarquizz\SQLDatabaseProj\SQLDatabaseProj\obj\Debug\SQLDatabaseProj.pdb

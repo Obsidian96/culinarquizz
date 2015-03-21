@@ -1,0 +1,77 @@
+{
+  "author": {
+    "name": "Patrik Simek",
+    "url": "https://patriksimek.cz"
+  },
+  "name": "mssql",
+  "description": "An easy-to-use MSSQL database connector for Node.js.",
+  "keywords": [
+    "database",
+    "mssql",
+    "sql",
+    "msnodesql",
+    "sqlserver",
+    "tds",
+    "node-tds",
+    "tedious",
+    "node-sqlserver",
+    "sqlserver"
+  ],
+  "version": "2.1.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patriksimek/node-mssql"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies": {
+    "tedious": "^1.10.0",
+    "generic-pool": "^2.1.1",
+    "promise": "^6.1.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.0",
+    "mocha": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=0.6"
+  },
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "coffee --compile --output ./lib ./src"
+  },
+  "bin": {
+    "mssql": "./bin/mssql"
+  },
+  "gitHead": "69e71bdb26773597bda23b17adb0a14b7d4a4d4a",
+  "bugs": {
+    "url": "https://github.com/patriksimek/node-mssql/issues"
+  },
+  "homepage": "https://github.com/patriksimek/node-mssql",
+  "_id": "mssql@2.1.1",
+  "_shasum": "fb2c9610d5dc0d37bbd78f50cb83dc928e501afc",
+  "_from": "mssql@*",
+  "_npmVersion": "2.5.1",
+  "_nodeVersion": "1.2.0",
+  "_npmUser": {
+    "name": "patriksimek",
+    "email": "patrik@patriksimek.cz"
+  },
+  "maintainers": [
+    {
+      "name": "patriksimek",
+      "email": "patrik@patriksimek.cz"
+    }
+  ],
+  "dist": {
+    "shasum": "fb2c9610d5dc0d37bbd78f50cb83dc928e501afc",
+    "tarball": "http://registry.npmjs.org/mssql/-/mssql-2.1.1.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/mssql/-/mssql-2.1.1.tgz"
+}
