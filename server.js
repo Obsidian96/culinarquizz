@@ -2,6 +2,8 @@ var sql = require('mssql');
 var express = require('express');
 var app = express();
 var path = require('path');
+//var http = require('http');
+var port = process.env.port || 1337;
 
 var config = {
   user: 'culibase',
@@ -35,4 +37,4 @@ var config = {
     });
   });
 
-    app.listen(1337);
+    app.listen(port);
