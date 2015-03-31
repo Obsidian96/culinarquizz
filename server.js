@@ -31,7 +31,7 @@ var config = {
       {
        res.render('index', {
          title: recordset[0].test,
-         header: "Some users"
+         header: "head"
        });
      });
     });

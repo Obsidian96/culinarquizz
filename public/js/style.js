@@ -147,7 +147,7 @@ $(document).ready(function () {
 
     picturesGallery.owlCarousel({
 
-        items: 5,
+        items: 6,
         autoWidth: true,
         navigation: false,
         merge: true,
